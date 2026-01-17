@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Icon } from '../ui';
 import { SOCIAL_LINKS, CONTACT_INFO } from '../../constants';
 import styles from './Footer.module.css';
-import FloraLogo from '../../assets/FloraLogo.png';
+import FloraLogo from '../../assets/FloraLogo.svg';
 
 function Footer() {
   const currentYear = new Date().getFullYear();

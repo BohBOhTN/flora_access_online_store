@@ -3,7 +3,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
 import { Icon } from '../ui';
 import styles from './Navbar.module.css';
-import FloraLogo from '../../assets/FloraLogo.png';
+import FloraLogo from '../../assets/FloraLogo.svg';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
