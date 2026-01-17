@@ -3,6 +3,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
 import { Icon } from '../ui';
 import styles from './Navbar.module.css';
+import FloraLogo from '../../assets/FloraLogo.png';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,7 +54,7 @@ function Navbar() {
         {/* Logo */}
         <Link to="/" className={styles.logo} onClick={closeMenu}>
           <img 
-            src="/assets/FloraLogo.png" 
+            src={FloraLogo}
             alt="Flora Access Shop" 
             className={styles.logoImage}
           />

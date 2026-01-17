@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Icon } from '../ui';
 import { SOCIAL_LINKS, CONTACT_INFO } from '../../constants';
 import styles from './Footer.module.css';
+import FloraLogo from '../../assets/FloraLogo.png';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -28,7 +29,7 @@ function Footer() {
           <div className={styles.brandSection}>
             <div className={styles.footerLogo}>
               <img 
-                src="/assets/FloraLogo.png" 
+                src={FloraLogo}
                 alt="Flora Access Shop" 
                 className={styles.footerLogoImage}
               />
