@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 120" fill="none">
+  <g stroke="#D46E9E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Vertical vine with leaves -->
+    <path d="M30 10 Q25 30, 30 50 Q35 70, 30 90 Q28 100, 30 110" opacity="0.5"/>
+    
+    <!-- Leaves along the vine -->
+    <path d="M30 25 C20 20, 10 25, 12 35 C14 45, 25 42, 30 35" opacity="0.4"/>
+    <path d="M30 50 C40 45, 50 50, 48 60 C46 70, 35 67, 30 60" opacity="0.4"/>
+    <path d="M30 75 C20 70, 10 75, 12 85 C14 95, 25 92, 30 85" opacity="0.4"/>
+    
+    <!-- Small buds -->
+    <circle cx="15" cy="30" r="4" opacity="0.35"/>
+    <circle cx="15" cy="30" r="2" fill="#D46E9E" opacity="0.25"/>
+    
+    <circle cx="45" cy="55" r="4" opacity="0.35"/>
+    <circle cx="45" cy="55" r="2" fill="#D46E9E" opacity="0.25"/>
+    
+    <circle cx="15" cy="80" r="3" opacity="0.3"/>
+    <circle cx="15" cy="80" r="1.5" fill="#D46E9E" opacity="0.2"/>
+    
+    <!-- Decorative curls -->
+    <path d="M30 15 Q35 12, 38 18" stroke-width="0.8" opacity="0.3" fill="none"/>
+    <path d="M30 95 Q25 98, 22 92" stroke-width="0.8" opacity="0.3" fill="none"/>
+  </g>
+</svg>

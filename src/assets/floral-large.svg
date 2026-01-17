@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none">
+  <g stroke="#D46E9E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main Large Peony -->
+    <path d="M150 120 C135 95, 105 85, 95 105 C85 125, 110 140, 150 130" opacity="0.9"/>
+    <path d="M150 120 C165 95, 195 85, 205 105 C215 125, 190 140, 150 130" opacity="0.9"/>
+    <path d="M150 125 C130 105, 95 115, 95 140 C95 165, 125 175, 150 155" opacity="0.85"/>
+    <path d="M150 125 C170 105, 205 115, 205 140 C205 165, 175 175, 150 155" opacity="0.85"/>
+    <path d="M150 135 C120 125, 85 145, 90 175 C95 205, 130 195, 150 170" opacity="0.8"/>
+    <path d="M150 135 C180 125, 215 145, 210 175 C205 205, 170 195, 150 170" opacity="0.8"/>
+    <path d="M150 145 C125 140, 100 160, 108 185 C116 210, 140 200, 150 180" opacity="0.75"/>
+    <path d="M150 145 C175 140, 200 160, 192 185 C184 210, 160 200, 150 180" opacity="0.75"/>
+    
+    <!-- Center spiral details -->
+    <circle cx="150" cy="145" r="12" opacity="0.7"/>
+    <circle cx="150" cy="145" r="7" fill="#D46E9E" opacity="0.5"/>
+    <path d="M145 142 Q150 138, 155 142 Q158 147, 155 152 Q150 155, 145 152 Q142 147, 145 142" opacity="0.6"/>
+    
+    <!-- Large decorative leaves -->
+    <path d="M95 175 C60 195, 35 235, 55 265 C75 295, 115 275, 135 235 C115 245, 90 230, 95 175" opacity="0.6"/>
+    <path d="M75 185 C55 200, 45 225, 58 245" stroke-width="0.8" opacity="0.5"/>
+    <path d="M85 195 C70 210, 62 230, 72 248" stroke-width="0.8" opacity="0.5"/>
+    
+    <path d="M205 175 C240 195, 265 235, 245 265 C225 295, 185 275, 165 235 C185 245, 210 230, 205 175" opacity="0.6"/>
+    <path d="M225 185 C245 200, 255 225, 242 245" stroke-width="0.8" opacity="0.5"/>
+    <path d="M215 195 C230 210, 238 230, 228 248" stroke-width="0.8" opacity="0.5"/>
+    
+    <!-- Small flower top left -->
+    <circle cx="55" cy="55" r="18" opacity="0.5"/>
+    <circle cx="55" cy="55" r="10" opacity="0.4"/>
+    <circle cx="55" cy="55" r="4" fill="#D46E9E" opacity="0.4"/>
+    <path d="M55 37 C55 28, 62 22, 72 30" opacity="0.4"/>
+    <path d="M55 37 C55 28, 48 22, 38 30" opacity="0.4"/>
+    <path d="M37 55 C28 55, 22 48, 30 38" opacity="0.4"/>
+    <path d="M73 55 C82 55, 88 48, 80 38" opacity="0.4"/>
+    
+    <!-- Small flower top right -->
+    <circle cx="245" cy="45" r="15" opacity="0.45"/>
+    <circle cx="245" cy="45" r="8" opacity="0.35"/>
+    <circle cx="245" cy="45" r="3" fill="#D46E9E" opacity="0.35"/>
+    
+    <!-- Buds and small elements -->
+    <path d="M30 120 C18 112, 12 125, 25 138 C38 151, 45 138, 38 125" opacity="0.5"/>
+    <path d="M32 125 L28 135" stroke-width="0.8" opacity="0.4"/>
+    
+    <path d="M270 110 C282 102, 288 115, 275 128 C262 141, 255 128, 262 115" opacity="0.5"/>
+    <path d="M268 115 L272 125" stroke-width="0.8" opacity="0.4"/>
+    
+    <!-- Decorative vines and stems -->
+    <path d="M135 235 C115 260, 85 275, 60 290" stroke-width="1" opacity="0.4"/>
+    <path d="M165 235 C185 260, 215 275, 240 290" stroke-width="1" opacity="0.4"/>
+    
+    <!-- Small dots decoration -->
+    <circle cx="45" cy="90" r="2" fill="#D46E9E" opacity="0.5"/>
+    <circle cx="255" cy="85" r="2" fill="#D46E9E" opacity="0.5"/>
+    <circle cx="70" cy="270" r="2.5" fill="#D46E9E" opacity="0.4"/>
+    <circle cx="230" cy="275" r="2.5" fill="#D46E9E" opacity="0.4"/>
+    <circle cx="150" cy="260" r="2" fill="#D46E9E" opacity="0.35"/>
+    
+    <!-- Additional small leaves -->
+    <path d="M40 150 C25 160, 20 180, 35 190 C50 200, 55 180, 45 165" opacity="0.35"/>
+    <path d="M260 145 C275 155, 280 175, 265 185 C250 195, 245 175, 255 160" opacity="0.35"/>
+    
+    <!-- Curly decorative elements -->
+    <path d="M75 35 Q85 25, 95 35 Q100 45, 90 50" stroke-width="0.8" opacity="0.3" fill="none"/>
+    <path d="M225 30 Q215 20, 205 30 Q200 40, 210 45" stroke-width="0.8" opacity="0.3" fill="none"/>
+  </g>
+</svg>

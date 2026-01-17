@@ -1,0 +1,85 @@
+.selector {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-white);
+}
+
+/* ============ SIZES ============ */
+.sm .button {
+  width: 28px;
+  height: 28px;
+  font-size: var(--text-sm);
+}
+
+.sm .value {
+  min-width: 32px;
+  font-size: var(--text-sm);
+}
+
+.md .button {
+  width: 36px;
+  height: 36px;
+  font-size: var(--text-base);
+}
+
+.md .value {
+  min-width: 40px;
+  font-size: var(--text-base);
+}
+
+.lg .button {
+  width: 44px;
+  height: 44px;
+  font-size: var(--text-lg);
+}
+
+.lg .value {
+  min-width: 48px;
+  font-size: var(--text-lg);
+}
+
+/* ============ ELEMENTS ============ */
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-weight: var(--font-semibold);
+}
+
+.button:hover:not(:disabled) {
+  color: var(--color-primary);
+  background: rgba(212, 110, 158, 0.1);
+}
+
+.button:first-child {
+  border-radius: var(--radius-full) 0 0 var(--radius-full);
+}
+
+.button:last-child {
+  border-radius: 0 var(--radius-full) var(--radius-full) 0;
+}
+
+.button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.value {
+  text-align: center;
+  font-weight: var(--font-semibold);
+  color: var(--color-text);
+  user-select: none;
+}
+
+/* ============ STATES ============ */
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}

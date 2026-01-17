@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <g stroke="#D46E9E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Simple elegant flower -->
+    <path d="M50 35 C42 25, 28 25, 25 35 C22 45, 35 52, 50 45" opacity="0.7"/>
+    <path d="M50 35 C58 25, 72 25, 75 35 C78 45, 65 52, 50 45" opacity="0.7"/>
+    <path d="M50 40 C38 35, 22 45, 25 58 C28 71, 42 65, 50 55" opacity="0.6"/>
+    <path d="M50 40 C62 35, 78 45, 75 58 C72 71, 58 65, 50 55" opacity="0.6"/>
+    
+    <!-- Center -->
+    <circle cx="50" cy="47" r="6" opacity="0.5"/>
+    <circle cx="50" cy="47" r="3" fill="#D46E9E" opacity="0.4"/>
+    
+    <!-- Leaves -->
+    <path d="M25 58 C12 68, 8 85, 20 92 C32 99, 42 85, 45 70" opacity="0.4"/>
+    <path d="M75 58 C88 68, 92 85, 80 92 C68 99, 58 85, 55 70" opacity="0.4"/>
+    
+    <!-- Small decorative dots -->
+    <circle cx="15" cy="30" r="1.5" fill="#D46E9E" opacity="0.3"/>
+    <circle cx="85" cy="28" r="1.5" fill="#D46E9E" opacity="0.3"/>
+    <circle cx="50" cy="85" r="1.5" fill="#D46E9E" opacity="0.25"/>
+  </g>
+</svg>

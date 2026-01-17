@@ -1,0 +1,25 @@
+# ============================================
+# FLORA Access Shop - Docker Compose
+# ============================================
+# For local development and testing
+
+version: '3.8'
+
+services:
+  flora-access:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flora-access-shop
+    ports:
+      - "999:999"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:999/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    labels:
+      - "app.name=flora-access-shop"
+      - "app.version=1.0.0"

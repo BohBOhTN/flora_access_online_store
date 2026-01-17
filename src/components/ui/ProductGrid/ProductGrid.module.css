@@ -1,0 +1,73 @@
+.grid {
+  display: grid;
+  gap: var(--space-4);
+  align-items: stretch;
+}
+
+/* ============ COLUMN VARIANTS ============ */
+.cols2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cols3 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cols4 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 480px) {
+  .grid {
+    gap: var(--space-4);
+  }
+}
+
+@media (min-width: 768px) {
+  .grid {
+    gap: var(--space-6);
+  }
+  
+  .cols3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .cols4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cols4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* ============ EMPTY STATE ============ */
+.emptyState {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: var(--space-16) var(--space-4);
+}
+
+.emptyIcon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto var(--space-4);
+  color: var(--color-primary-light);
+}
+
+.emptyTitle {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+}
+
+.emptyText {
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-6);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="none">
+  <g stroke="#D46E9E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Horizontal decorative divider with floral elements -->
+    <path d="M0 25 Q25 25, 50 25" opacity="0.3"/>
+    <path d="M150 25 Q175 25, 200 25" opacity="0.3"/>
+    
+    <!-- Central flower -->
+    <circle cx="100" cy="25" r="10" opacity="0.5"/>
+    <circle cx="100" cy="25" r="6" opacity="0.4"/>
+    <circle cx="100" cy="25" r="3" fill="#D46E9E" opacity="0.4"/>
+    
+    <!-- Petals -->
+    <path d="M100 15 C95 8, 85 8, 85 15 C85 22, 95 22, 100 18" opacity="0.4"/>
+    <path d="M100 15 C105 8, 115 8, 115 15 C115 22, 105 22, 100 18" opacity="0.4"/>
+    <path d="M90 25 C83 20, 75 22, 78 30 C81 38, 90 35, 92 28" opacity="0.35"/>
+    <path d="M110 25 C117 20, 125 22, 122 30 C119 38, 110 35, 108 28" opacity="0.35"/>
+    
+    <!-- Side leaves -->
+    <path d="M55 25 C50 18, 40 20, 42 28 C44 36, 52 32, 55 25" opacity="0.3"/>
+    <path d="M145 25 C150 18, 160 20, 158 28 C156 36, 148 32, 145 25" opacity="0.3"/>
+    
+    <!-- Connecting vines -->
+    <path d="M55 25 Q70 22, 85 25" opacity="0.25"/>
+    <path d="M115 25 Q130 22, 145 25" opacity="0.25"/>
+    
+    <!-- Small dots -->
+    <circle cx="70" cy="23" r="1.5" fill="#D46E9E" opacity="0.3"/>
+    <circle cx="130" cy="23" r="1.5" fill="#D46E9E" opacity="0.3"/>
+    <circle cx="30" cy="25" r="1" fill="#D46E9E" opacity="0.2"/>
+    <circle cx="170" cy="25" r="1" fill="#D46E9E" opacity="0.2"/>
+  </g>
+</svg>

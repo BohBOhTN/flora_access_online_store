@@ -1,0 +1,144 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-family: var(--font-body);
+  font-weight: var(--font-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  white-space: nowrap;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* ============ SIZES ============ */
+.sm {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-xs);
+}
+
+.md {
+  padding: var(--space-3) var(--space-5);
+  font-size: var(--text-sm);
+}
+
+.lg {
+  padding: var(--space-4) var(--space-6);
+  font-size: var(--text-base);
+}
+
+/* ============ VARIANTS ============ */
+
+/* Primary - Gold accent button */
+.primary {
+  background: linear-gradient(135deg, var(--color-accent), #D4A574);
+  color: var(--color-white);
+  box-shadow: 0 4px 15px rgba(193, 154, 107, 0.3);
+}
+
+.primary:hover:not(.disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(193, 154, 107, 0.4);
+}
+
+.primary:active:not(.disabled) {
+  transform: translateY(0);
+}
+
+/* Secondary - Pink button */
+.secondary {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: var(--color-white);
+  box-shadow: 0 4px 15px rgba(212, 110, 158, 0.3);
+}
+
+.secondary:hover:not(.disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 110, 158, 0.4);
+}
+
+.secondary:active:not(.disabled) {
+  transform: translateY(0);
+}
+
+/* Outline - Border only */
+.outline {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.outline:hover:not(.disabled) {
+  background: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-2px);
+}
+
+/* Ghost - No background or border */
+.ghost {
+  background: transparent;
+  color: var(--color-text);
+  padding-left: var(--space-2);
+  padding-right: var(--space-2);
+}
+
+.ghost:hover:not(.disabled) {
+  color: var(--color-primary);
+  background: rgba(212, 110, 158, 0.1);
+}
+
+/* Icon - Circular icon-only button */
+.icon {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: var(--radius-full);
+  background: var(--color-white);
+  color: var(--color-text);
+  box-shadow: var(--shadow-sm);
+}
+
+.icon.sm {
+  width: 32px;
+  height: 32px;
+}
+
+.icon.lg {
+  width: 48px;
+  height: 48px;
+}
+
+.icon:hover:not(.disabled) {
+  background: var(--color-primary);
+  color: var(--color-white);
+  transform: scale(1.05);
+}
+
+/* ============ STATES ============ */
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+/* ============ INNER ELEMENTS ============ */
+.text {
+  line-height: 1;
+}
+
+.icon {
+  flex-shrink: 0;
+}

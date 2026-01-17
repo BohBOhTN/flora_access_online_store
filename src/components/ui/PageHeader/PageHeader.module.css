@@ -1,0 +1,109 @@
+.pageHeader {
+  position: relative;
+  padding: var(--space-10) var(--space-4);
+  background: linear-gradient(135deg, var(--color-background) 0%, var(--color-background-alt) 100%);
+  text-align: center;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .pageHeader {
+    padding: var(--space-16) var(--space-6);
+  }
+}
+
+.inner {
+  position: relative;
+  z-index: 2;
+  max-width: var(--container-xl);
+  margin: 0 auto;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-3);
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: var(--text-4xl);
+  }
+}
+
+/* ============ BREADCRUMB ============ */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.crumbItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.crumbLink {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.crumbLink:hover {
+  color: var(--color-primary);
+}
+
+.crumbCurrent {
+  color: var(--color-text);
+  font-weight: var(--font-medium);
+}
+
+.separator {
+  color: var(--color-border);
+  margin: 0 var(--space-1);
+}
+
+/* ============ FLORAL DECORATIONS ============ */
+.floral {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .floral {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+.floralLeft {
+  top: 50%;
+  left: -30px;
+  transform: translateY(-50%) rotate(-15deg);
+}
+
+.floralRight {
+  top: 50%;
+  right: -30px;
+  transform: translateY(-50%) rotate(15deg) scaleX(-1);
+}
+
+@media (min-width: 768px) {
+  .floralLeft {
+    left: 20px;
+  }
+  .floralRight {
+    right: 20px;
+  }
+}
