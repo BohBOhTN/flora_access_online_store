@@ -6,7 +6,18 @@ import { products, categories } from '../../data/products';
 import { FEATURES, TRUST_BADGES } from '../../constants';
 import floralDecor from '../../assets/floral-decoration.svg';
 import floralLarge from '../../assets/floral-large.svg';
+import MakeupIcon from '../../assets/Makeup.svg';
+import SoinsIcon from '../../assets/Soins.svg';
+import FragranceIcon from '../../assets/Fragrance.svg';
+import AccessoriesIcon from '../../assets/Accessories.svg';
 import styles from './HomePage.module.css';
+
+const categoryIcons = {
+  makeup: MakeupIcon,
+  soins: SoinsIcon,
+  fragrance: FragranceIcon,
+  accessories: AccessoriesIcon
+};
 
 function HomePage() {
   const newArrivals = products.filter(p => p.isNew).slice(0, 4);
@@ -113,16 +124,23 @@ function HomePage() {
           <SectionHeader subtitle="Explorez" title="Nos Catégories" />
           
           <div className={styles.categoriesGrid}>
-            {categories.filter(cat => cat.id !== 'all').map(category => (
-              <Link 
-                key={category.id}
-                to={`/boutique?category=${category.id}`}
-                className={styles.categoryCard}
-              >
-                <span className={styles.categoryIcon}>{category.icon}</span>
-                <span className={styles.categoryName}>{category.name}</span>
-              </Link>
-            ))}
+            {categories.filter(cat => cat.id !== 'all').map(category => {
+              const iconSrc = categoryIcons[category.icon];
+              return (
+                <Link 
+                  key={category.id}
+                  to={`/boutique?category=${category.id}`}
+                  className={styles.categoryCard}
+                >
+                  {iconSrc ? (
+                    <img src={iconSrc} alt={category.name} className={styles.categoryIcon} />
+                  ) : (
+                    <span className={styles.categoryIcon}>{category.icon}</span>
+                  )}
+                  <span className={styles.categoryName}>{category.name}</span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
