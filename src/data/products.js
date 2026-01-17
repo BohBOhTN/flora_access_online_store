@@ -162,10 +162,10 @@ export const products = [
 
 export const categories = [
   { id: 'all', name: 'Tous les produits', icon: '✨' },
-  { id: 'maquillage', name: 'Maquillage', icon: '💄' },
-  { id: 'soins', name: 'Soins', icon: '🧴' },
-  { id: 'parfums', name: 'Parfums', icon: '🌸' },
-  { id: 'accessoires', name: 'Accessoires', icon: '💝' }
+  { id: 'maquillage', name: 'Maquillage', icon: 'makeup' },
+  { id: 'soins', name: 'Soins', icon: 'soins' },
+  { id: 'parfums', name: 'Parfums', icon: 'fragrance' },
+  { id: 'accessoires', name: 'Accessoires', icon: 'accessories' }
 ];
 
 export const brands = [
