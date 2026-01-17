@@ -61,7 +61,6 @@
 .footerLogoImage {
   width: 60px;
   height: 60px;
-  filter: brightness(0) invert(1);
 }
 
 .footerLogoText {

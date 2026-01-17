@@ -50,8 +50,8 @@ export const CONTACT_INFO = {
   address: 'C119, Al-Maharas 3060, Sfax, Tunisie',
   workingHours: 'Lun - Sam: 9h - 18h',
   mapCoordinates: {
-    lat: 34.5289,
-    lng: 10.4956,
+    lat: 34.525811217546114,
+    lng: 10.49687644546298,
   },
   mapZoom: 17,
 };
